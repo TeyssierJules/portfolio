@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <!-- Liens vers stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/dark-mode.css">
+<link rel="stylesheet" href="css/responsive.css">
+    <!-- Fonts google -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-logo">
+            <a href="#accueil">Portfolio</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#centre-interet">Centre d'intérêt</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="navbar-burger">
+            <div class="burger-icon" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+<section id="accueil" class="section-accueil">
+    <div class="container">
+        <div class="accueil-content">
+            <h1>Salut, je suis <span class="highlight">Teyssier Jules</span>, bienvenue sur mon portfolio !</h1>
+            <h2>Actuellement en première année de BUT Réseaux et Télécommunications</h2>
+            <p>
+                Je suis à la recherche d'une alternance au rythme de 1 mois/1 mois à partir de septembre 2025, afin de mettre en pratique mes compétences en réseaux, systèmes et développement.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Me contacter</a>
+                <a href="cv.pdf" class="btn cv-btn" download>Télécharger mon CV</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="section-a-propos">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Après avoir obtenu mon Bac STMG en 2021, j'ai poursuivi mes études avec une licence AES (Administration Économique et Sociale) de 2022 à 2024. Cependant, j'ai rapidement réalisé que la théorie seule ne suffisait pas pour atteindre mes objectifs professionnels, et c'est pourquoi j'ai décidé d'arrêter la fac pour me réorienter vers un BUT Réseaux et Télécommunications en 2024, où je suis actuellement en première année.</p>
+                    <p>Tout au long de mon parcours, j'ai acquis une solide base de connaissances en gestion, en informatique et en réseaux. En 2023, j'ai obtenu une certification Coursera en Google Cybersecurity, ce qui a renforcé mon envie de me spécialiser dans ce domaine. Mon objectif est aujourd'hui de développer mes compétences techniques, de travailler sur des projets concrets et de trouver une alternance en entreprise pour mettre tout cela en pratique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formations -->
+<section id="formations" class="section-formations">
+    <div class="container">
+        <h2 class="section-title">Mes Formations</h2>
+        <div class="formations-timeline">
+            <!-- Formation 1 -->
+            <div class="formation-item">
+                <div class="formation-year">2024 - Présent</div>
+                <div class="formation-content">
+                    <h3>BUT Réseaux et Télécommunications</h3>
+                    <p>Actuellement en 1ère année</p>
+                </div>
+            </div>
+            <!-- Formation 2 -->
+            <div class="formation-item">
+                <div class="formation-year">2022 - 2024</div>
+                <div class="formation-content">
+                    <h3>Licence AES</h3>
+                    <p>(Administration Économique et Sociale)</p>
+                </div>
+            </div>
+            <!-- Formation 3 -->
+            <div class="formation-item">
+                <div class="formation-year">2021 - 2022</div>
+                <div class="formation-content">
+                    <h3>Bac STMG</h3>
+                    <p>Sciences et Technologies du Management et de la Gestion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Compétences -->
+<section id="competences" class="section-competences">
+    <div class="container">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-container">
+            <!-- Réseau -->
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="65">
+                    <svg class="skill-svg" width="160" height="160">
+                        <circle class="skill-circle-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-circle-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-percent">65%</div>
+                </div>
+                <h3>Réseau</h3>
+            </div>
+            <!-- Système -->
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="75">
+                    <svg class="skill-svg" width="160" height="160">
+                        <circle class="skill-circle-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-circle-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-percent">75%</div>
+                </div>
+                <h3>Système</h3>
+            </div>
+            <!-- Programmation -->
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="60">
+                    <svg class="skill-svg" width="160" height="160">
+                        <circle class="skill-circle-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-circle-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-percent">60%</div>
+                </div>
+                <h3>Programmation</h3>
+            </div>
+            <!-- Dev Web -->
+            <div class="skill-item">
+                <div class="skill-circle" data-percent="90">
+                    <svg class="skill-svg" width="160" height="160">
+                        <circle class="skill-circle-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-circle-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-percent">90%</div>
+                </div>
+                <h3>Dev Web</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Projets -->
+<section id="projets" class="section-projets">
+    <div class="container">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-tabs">
+            <!-- Onglets -->
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="academiques">Projets Académiques</button>
+                <button class="tab-btn" data-tab="personnels">Projets Personnels</button>
+            </div>
+
+            <!-- Contenu des onglets -->
+            <div class="tabs-content">
+                <!-- Projets Académiques -->
+                <div class="tab-content active" id="tab-academiques">
+                    <div class="project-list">
+                        <!-- Projet 1: Portfolio Web -->
+                        <div class="project-item">
+                            <h3>Portfolio Web</h3>
+                            <p>Réalisation de ce portfolio en HTML, CSS et JavaScript.</p>
+                            <a href="pages/projet-academique-1.html" class="btn btn-small">Voir le projet</a>
+                        </div>
+                        <!-- Projet 2: Découverte des dispositifs de transmission -->
+                        <div class="project-item">
+                            <h3>Découverte des dispositifs de transmission</h3>
+                            <p>SAE de télécommunications réalisée dans le cadre du BUT.</p>
+                            <a href="pages/projet-academique-2.html" class="btn btn-small">Voir le projet</a>
+                        </div>
+                        <!-- Projet 3: Réalisation de VLAN -->
+                        <div class="project-item">
+                            <h3>Réalisation de VLAN</h3>
+                            <p>Projet de mise en place de réseaux locaux virtuels.</p>
+                            <a href="pages/projet-academique-3.html" class="btn btn-small">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projets Personnels -->
+                <div class="tab-content" id="tab-personnels">
+                    <div class="project-list">
+                        <!-- Message d'avertissement -->
+                        <div class="project-item">
+                            <h3>Projets Personnels en cours de développement</h3>
+                            <p>Mes projets personnels sont actuellement en cours de réalisation. Revenez bientôt pour les découvrir !</p>
+                            <p>Incluera app mobile avec dart/flutter et VBA/Macro Excel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Certifications -->
+    <section id="certifications" class="section-certifications">
+        <div class="container">
+            <h2 class="section-title">Mes Certifications</h2>
+            <div class="certifications-container">
+                <div class="certification-item">
+                    <div class="certification-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/FSRL75WJ54WQ" target="_blank" rel="noopener noreferrer" class="certification-link">
+                                Google Cybersecurity
+                            </a>
+                        </h3>
+                        <p>Certification Coursera - Décembre 2023</p>
+                    </div>
+                </div>
+                <!-- Ajoutez d'autres certifications ici si nécessaire -->
+            </div>
+        </div>
+    </section>
+
+<!-- Section Centre d'intérêt -->
+<section id="centre-interet" class="centre-interet-section">
+    <div class="container">
+        <h2>Centre d'intérêt</h2>
+
+        <!-- Sous-section Musique -->
+        <div class="interest-section">
+            <div class="interest-text">
+                <h3>Musique</h3>
+                <p>
+                    La musique fait partie de mon quotidien depuis des années. J’écoute un large éventail de styles — j’aime varier les ambiances, découvrir de nouveaux genres et artistes. C’est un excellent moyen pour moi de me détendre, de me concentrer ou simplement de profiter d’un moment. J’apprécie particulièrement explorer des sons que je ne connais pas encore, par curiosité et par passion.
+                </p>
+            </div>
+            <div class="interest-image">
+                <img src="img/centreinteret1.png" alt="Musique" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Sous-section Course à pied -->
+        <div class="interest-section reverse">
+            <div class="interest-text">
+                <h3>Course à pied</h3>
+                <p>
+                    Je pratique la course à pied de manière récréative, principalement pour rester actif et me dépasser. J’aime l’idée de progresser à mon rythme tout en gardant une certaine régularité. Il m’arrive aussi de participer à des courses officielles comme des 10 km, surtout pour accompagner des proches et partager un moment convivial autour du sport.
+                </p>
+            </div>
+            <div class="interest-image">
+                <img src="img/centreinteret2.png" alt="Course à pied" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="section-contact">
+    <div class="container">
+        <h2 class="section-title">Me Contacter</h2>
+        <div class="contact-options">
+            <a href="https://www.linkedin.com/in/jules-teyssier-a2790b2b2/" class="contact-btn linkedin-btn" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="cv.pdf" class="contact-btn cv-btn" download>
+                <i class="fas fa-file-pdf"></i> Télécharger CV
+            </a>
+            <button id="form-toggle-btn" class="contact-btn form-btn">
+                <i class="fas fa-envelope"></i> Formulaire de contact
+            </button>
+        </div>
+        <div class="contact-form-container" id="contact-form">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+            <div id="form-message" class="form-message" style="display: none;"></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 - Portfolio créé par Teyssier Jules</p>
+        </div>
+    </footer>
+
+    <!-- Scripts JS -->
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact-form.js"></script>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init('-mgRvJK9k4zSwkaU0'); 
+</script>
+</body>
+</html>

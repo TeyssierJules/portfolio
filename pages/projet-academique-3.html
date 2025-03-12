@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web - Projet Académique 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dark-mode.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-logo">
+            <a href="#accueil">Portfolio</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../index.html#a-propos">À propos</a></li>
+                <li><a href="../index.html#formations">Formations</a></li>
+                <li><a href="../index.html#competences">Compétences</a></li>
+                <li><a href="../index.html#projets">Projets</a></li>
+                <li><a href="../index.html#certifications">Certifications</a></li>
+                <li><a href="../index.html#centre-interet">Centre d'intérêt</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="navbar-burger">
+            <div class="burger-icon" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- En-tête de page -->
+    <header class="page-header">
+        <div class="container">
+            <a href="../index.html#projets" class="btn back-btn"><i class="fas fa-arrow-left"></i> Retour aux projets</a>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <section class="project-details">
+            <div class="container">
+                <!-- Section 1 : Technologies utilisées -->
+                <div class="project-section">
+                    <div class="project-text">
+                        <h2>Technologies utilisées</h2>
+                        <p>
+                            <strong>Cisco Packet Tracer, VLAN, Switchs, Routeurs</strong>
+                        </p>
+                        <p>
+                            Ce projet a été réalisé en utilisant Cisco Packet Tracer pour simuler une infrastructure réseau segmentée à l'aide de VLANs, de switchs et de routeurs.
+                        </p>
+                    </div>
+                    <div class="project-image">
+                        <img src="../img/projet3image1.png" alt="Technologies utilisées" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Section 2 : Objectifs du projet -->
+                <div class="project-section reverse">
+                    <div class="project-text">
+                        <h2>Objectifs du projet</h2>
+                        <p>
+                            L’objectif de ce projet était de concevoir et configurer une infrastructure réseau virtuelle segmentée à l’aide de VLANs. Le but était d’améliorer la sécurité, l’organisation et la gestion du réseau en séparant logiquement les différents services ou groupes d’utilisateurs, tout en assurant leur interconnexion via un routeur.
+                        </p>
+                    </div>
+                    <div class="project-image">
+                        <img src="../img/projet3image2.png" alt="Objectifs du projet" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Section 3 : Travail réalisé -->
+                <div class="project-section">
+                    <div class="project-text">
+                        <h2>Travail réalisé</h2>
+                        <p>
+                            En binôme, nous avons utilisé Cisco Packet Tracer pour créer une topologie réseau complète. Nous avons configuré plusieurs VLANs sur un switch (administration, technique, invités, etc.), assigné les ports correspondants à chaque VLAN et mis en place le routage inter-VLAN sur un routeur. Nous avons également attribué des adresses IP aux machines et vérifié la connectivité entre les différents VLANs à l’aide de commandes de test (ping, traceroute). Ce projet nous a permis de comprendre l’importance du cloisonnement réseau et des règles de communication entre sous-réseaux.
+                        </p>
+                    </div>
+                    <div class="project-image">
+                        <img src="../img/projet3image3.png" alt="Travail réalisé" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- Section 4 : Résultat -->
+                <div class="project-section reverse">
+                    <div class="project-text">
+                        <h2>Résultat</h2>
+                        <p>
+                            Grâce à ce projet, j’ai acquis des compétences pratiques sur la segmentation réseau et le routage inter-VLAN. J’ai également renforcé ma maîtrise de Cisco Packet Tracer et des configurations réseau de base, tout en développant ma logique de dépannage et d’analyse de connectivité.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Mon Portfolio</h3>
+                    <p>© 2025 - Tous droits réservés</p>
+                </div>
+                <div class="footer-links">
+                    <a href="../index.html#accueil">Accueil</a>
+                    <a href="../index.html#a-propos">À propos</a>
+                    <a href="../index.html#projets">Projets</a>
+                    <a href="../index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+</html>

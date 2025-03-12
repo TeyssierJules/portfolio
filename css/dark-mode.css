@@ -1,0 +1,35 @@
+/* Mode nuit */
+body.dark-mode {
+    --bg-primary: #0c0c0c;
+    --bg-secondary: #1c1c1e;
+    --text-primary: #ffffff;
+    --text-secondary: #acacac;
+    --border-color: #2c2c2e;
+    --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustements spécifiques pour certains éléments en mode nuit */
+body.dark-mode .navbar.scrolled {
+    background-color: rgba(28, 28, 30, 0.8);
+}
+
+body.dark-mode #theme-toggle-btn .fa-sun {
+    display: inline-block;
+}
+
+body.dark-mode #theme-toggle-btn .fa-moon {
+    display: none;
+}
+
+body:not(.dark-mode) #theme-toggle-btn .fa-sun {
+    display: none;
+}
+
+body:not(.dark-mode) #theme-toggle-btn .fa-moon {
+    display: inline-block;
+}
+
+/* Transition douce lors du changement de thème */
+body.transition {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
